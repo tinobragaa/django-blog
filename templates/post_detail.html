@@ -96,6 +96,11 @@
                 <div class="alert alert-success" role="alert">
                     Your comment is awaiting approval
                 </div>
+                <div class="alert alert-success" id="check-msg" role="alert">
+                    We received your comment!
+                </div>
+
+
                 {% else %}
                 {% if user.is_authenticated %}
 
@@ -112,5 +117,13 @@
         </div>
     </div>
 </div>
+
+<script>
+    setTimeout(function () {
+        let messages = document.getElementById('check-msg');
+        let alert = new bootstrap.Alert(messages);
+        alert.close();
+    }, 2500);
+</script>
 
 {% endblock content %}
