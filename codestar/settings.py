@@ -34,7 +34,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ["mb2test.herokuapp.com", "localhost", "8000-tinobragaa-djangoblog-qxeihwqmb3i.ws-eu102.gitpod.io"]
+ALLOWED_HOSTS = ["https://diango-blog-8116154cfdd9.herokuapp.com/", "localhost", "8000-tinobragaa-djangoblog-qxeihwqmb3i.ws-eu102.gitpod.io"]
 
 # Application definition
 
