@@ -34,7 +34,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['https://diango-blog-8116154cfdd9.herokuapp.com/', 'localhost', '8000-tinobragaa-djangoblog-qxeihwqmb3i.ws-eu102.gitpod.io']
+ALLOWED_HOSTS = ['diango-blog-8116154cfdd9.herokuapp.com', 'localhost']
 
 # Application definition
 
@@ -167,3 +167,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
