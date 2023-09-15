@@ -14,7 +14,7 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
 
 A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+Another blue button should appear to click: _Open Browser
 
 To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
@@ -68,7 +68,6 @@ We continually tweak and adjust this template to help give you the best experien
 
 **December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
 ## FAQ about the uptime script
 
